@@ -191,3 +191,23 @@ intercityBusStationChoices:
     YUL: Montreal Airport (YUL)
     terminusKirkland: Kirkland
     terminusLongueuil: Longueuil Intermodal Terminal
+toddlerDaycareMode:
+    walk: Walking
+    bicycle: Bicycle
+    car: Car
+    transit: Public transit (bus, metro, train, REM)
+hasOmittedTripsActivities:
+    work: Work, Studies or Volunteering
+    shopping: Shopping, services or restaurants
+    pickupDropOff: Dropping off or picking up someone
+    visitFriends: Visiting friends or family
+    leisure: Leisure (walking, sports, arts, tourism, etc.)
+    health: Health (clinic, hospital, veterinary, etc.)
+    other: Other reason
+hasOmittedTripsModes:
+    walk: Walking
+    bicycle: Bicycle
+    carDriver: Car driver
+    carPassenger: Car passenger
+    transit: Public transit (bus, metro, train, REM)
+    other: Other mode

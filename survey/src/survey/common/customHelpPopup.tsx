@@ -103,3 +103,19 @@ export const assignedDateHelpPopup: HelpPopup = {
     title: (t: TFunction, interview) => t('tripsIntro:WhyThisDate'),
     content: (t: TFunction, interview) => t('tripsIntro:WhyThisDateExplanation')
 };
+
+// TODO: Add the content of the help popup
+export const toddlerDaycareHelpPopup: HelpPopup = {
+    title: {
+        fr: 'TODO',
+        en: 'TODO'
+    },
+    content: {
+        fr: function (_interview, _path) {
+            return 'TODO';
+        },
+        en: function (_interview, _path) {
+            return 'TODO';
+        }
+    }
+};

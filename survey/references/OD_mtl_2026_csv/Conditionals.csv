@@ -73,3 +73,6 @@ subwayLineConditional,||,${currentSegment}.subwayStationStart,===,longueuilUnive
 subwayLineConditional,&&,${currentSegment}.subwayStationEnd,===,lionelGroulx,)
 subwayLineConditional,||,${currentSegment}.subwayStationStart,===,lionelGroulx,(
 subwayLineConditional,&&,${currentSegment}.subwayStationEnd,===,longueuilUniversiteDeSherbrooke,)
+toddlerDaycareConditional,,omissions.toddlerDaycare,===,yes,
+hasOmittedTripsConditional,,ep_exclusif,===,omission,
+hasOmittedTripsSpecifyConditional,,omissions.hasOmittedTrips,===,yes,

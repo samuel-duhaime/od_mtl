@@ -501,3 +501,9 @@ export const isIntercityBusAndSegmentDestinationInTerritoryCustomConditional: Wi
 export const tripCommunCustomConditional: WidgetConditional = (interview, path) => {
     return [false, null];
 };
+
+// Custom conditional to decide whether to show the toddler daycare question
+// TODO: Implement the conditional
+export const toddlerDaycareCustomConditional: WidgetConditional = (interview, path) => {
+    return [true, null];
+};
